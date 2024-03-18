@@ -641,8 +641,8 @@ Transform:
   m_GameObject: {fileID: 317092924}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -7, z: -7.5}
-  m_LocalScale: {x: 17, y: 1, z: 5}
+  m_LocalPosition: {x: 0, y: -4, z: -7.5}
+  m_LocalScale: {x: 17, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1962123345}
@@ -682,6 +682,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candyManager: {fileID: 395517089}
   reward: 3
+  effectPrefab: {fileID: 3547036519636924842, guid: de3f2eddce6148c47aca6fe299cf1ac2, type: 3}
+  effectRotation: {x: -90, y: 0, z: 0}
 --- !u!1001 &326584091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2713,6 +2715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candyManager: {fileID: 395517089}
   reward: 0
+  effectPrefab: {fileID: 0}
+  effectRotation: {x: 0, y: 0, z: 0}
 --- !u!4 &1708011236
 Transform:
   m_ObjectHideFlags: 0
@@ -2722,8 +2726,8 @@ Transform:
   m_GameObject: {fileID: 1708011233}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -7, z: -2.5}
-  m_LocalScale: {x: 17, y: 1, z: 5}
+  m_LocalPosition: {x: 0, y: -9, z: -2.5}
+  m_LocalScale: {x: 17, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1962123345}
