@@ -195,7 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 52672315}
   m_Layer: 0
-  m_Name: Candys
+  m_Name: Candies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -323,9 +323,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c457a2c47ef88f34b85f678f9694bab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  candyPrefab: {fileID: 625228002180448611, guid: 597fe1f2692c6354eacee5c8560080a9, type: 3}
+  candyPrefabs:
+  - {fileID: 625228002180448611, guid: 597fe1f2692c6354eacee5c8560080a9, type: 3}
+  - {fileID: 625228002180448611, guid: 2da957f3e30eda64b99bfe55960c2de3, type: 3}
+  - {fileID: 625228002180448611, guid: fc78e8476290d3f49af7c83476830fc9, type: 3}
+  - {fileID: 625228002180448611, guid: abd835af7e15ed74fab4967450c9caf4, type: 3}
+  candyParentTransform: {fileID: 52672315}
   shotForce: 560
   shotTorque: 30
+  baseWidth: 5
 --- !u!4 &115311431
 Transform:
   m_ObjectHideFlags: 0
